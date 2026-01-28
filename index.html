@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="fr" data-lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitano Shokudo | Japanese Bistro Montreal</title>
+
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Noto+Sans+JP:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light-theme">
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="assets/logo.png" alt="Kitano Shokudo">
+            </a>
+
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="#about" data-fr="Notre Histoire" data-en="Our Story">Notre Histoire</a></li>
+                    <li><a href="#menu" data-fr="Le Menu" data-en="The Menu">Le Menu</a></li>
+                    <li><a href="#reviews" data-fr="Avis" data-en="Reviews">Avis</a></li>
+                    <li><a href="#contact" data-fr="Contact" data-en="Contact">Contact</a></li>
+                    <li><a href="https://www.opentable.com/booking/restref/availability?restRef=1378360" class="nav-cta"
+                            target="_blank" data-fr="Réserver" data-en="Booking">Réserver</a></li>
+                </ul>
+
+                <div class="lang-switch">
+                    <button id="lang-fr" class="active">FR</button>
+                    <span>|</span>
+                    <button id="lang-en">EN</button>
+                </div>
+
+                <div class="social-top">
+                    <a href="https://www.instagram.com/kitano_shokudo/" target="_blank" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                </div>
+
+                <button class="mobile-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-v2">
+        <div class="container hero-grid">
+            <div class="hero-text reveal">
+                <span class="eyebrow" data-fr="Japanese Bistro & Bar" data-en="Japanese Bistro & Bar">Japanese Bistro &
+                    Bar</span>
+                <img src="assets/logo.png" alt="Kitano Shokudo Logo" class="hero-logo">
+                <h1 class="serif">
+                    <span data-fr="L'Art de la Cuisine" data-en="The Art of">L'Art de la Cuisine</span>
+                    <span class="text-red" data-fr="Japonaise" data-en="Japanese Cooking">Japonaise</span>
+                </h1>
+                <p data-fr="Découvrez une expérience culinaire authentique au cœur de Montréal. Mazemen artisanaux, sashimi frais et ambiance chaleureuse."
+                    data-en="Discover an authentic culinary experience in the heart of Montreal. Artisanal Mazemen, fresh sashimi, and a warm atmosphere.">
+                    Découvrez une expérience culinaire authentique au cœur de Montréal. Mazemen artisanaux, sashimi
+                    frais et ambiance chaleureuse.
+                </p>
+                <div class="hero-actions">
+                    <a href="#menu" class="btn-primary-v2" data-fr="Explorer le Menu"
+                        data-en="Explore the Menu">Explorer le Menu</a>
+                    <a href="https://www.opentable.com/booking/restref/availability?restRef=1378360"
+                        class="btn-outline-v2" target="_blank" data-fr="Réserver" data-en="Book a Table">Réserver</a>
+                </div>
+            </div>
+            <div class="hero-image reveal-delay">
+                <div class="image-wrapper">
+                    <img src="assets/food_1.jpg" alt="Featured Dish">
+                    <div class="image-accent"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about-v2 section">
+        <div class="container grid-2">
+            <div class="about-img reveal">
+                <img src="assets/interior_1.png" alt="Kitano Shokudo Ambience">
+            </div>
+            <div class="about-content reveal">
+                <h2 class="serif" data-fr="Tradition & Modernité" data-en="Tradition & Modernity">Tradition & Modernité
+                </h2>
+                <div class="divider-red"></div>
+                <p data-fr="Bienvenue chez Kitano Shokudo (Otto Bistro). Nous marions les techniques ancestrales japonaises avec une touche montréalaise contemporaine."
+                    data-en="Welcome to Kitano Shokudo (Otto Bistro). We blend ancestral Japanese techniques with a contemporary Montreal touch.">
+                    Bienvenue chez Kitano Shokudo (Otto Bistro). Nous marions les techniques ancestrales japonaises avec
+                    une touche montréalaise contemporaine.
+                </p>
+                <p data-fr="Notre spécialité, le Mazemen, est une explosion de saveurs sans bouillon qui redéfinit les nouilles japonaises. Chaque ingrédient est sélectionné pour sa qualité exceptionnelle."
+                    data-en="Our specialty, Mazemen, is a brothless flavor explosion that redefines Japanese noodles. Every ingredient is selected for its exceptional quality.">
+                    Notre spécialité, le <strong>Mazemen</strong>, est une explosion de saveurs sans bouillon qui
+                    redéfinit les nouilles japonaises. Chaque ingrédient est sélectionné pour sa qualité exceptionnelle.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews-section section">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2 class="serif" data-fr="Ce que disent nos clients" data-en="What Our Guests Say">Ce que disent nos
+                    clients</h2>
+                <p data-fr="Avis Google 4.8/5" data-en="Google Reviews 4.8/5">Avis Google 4.8/5 ★★★★★</p>
+            </div>
+            <div class="reviews-grid reveal">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text"
+                        data-fr='"Le meilleur Mazemen à Montréal ! On sent vraiment la passion dans chaque plat. L&apos;ambiance est parfaite pour un souper intime."'
+                        data-en='"The best Mazemen in Montreal! You can really feel the passion in every dish. The atmosphere is perfect for an intimate dinner."'>
+                        "Le meilleur Mazemen à Montréal ! On sent vraiment la passion dans chaque plat. L'ambiance est
+                        parfaite pour un souper intime."
+                    </p>
+                    <span class="review-author">- Marie L.</span>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text"
+                        data-fr='"Une expérience incroyable. Les sashimi sont d&apos;une fraîcheur exemplaire. Je recommande vivement le Duck Mazemen."'
+                        data-en='"An incredible experience. The sashimi is exemplary fresh. I highly recommend the Duck Mazemen."'>
+                        "Une expérience incroyable. Les sashimi sont d'une fraîcheur exemplaire. Je recommande vivement
+                        le Duck Mazemen."
+                    </p>
+                    <span class="review-author">- Jean-Philippe T.</span>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text"
+                        data-fr='"Service impeccable et saveurs authentiques. Kitano Shokudo est devenu mon resto japonais préféré en ville."'
+                        data-en='"Impeccable service and authentic flavors. Kitano Shokudo has become my favorite Japanese restaurant in the city."'>
+                        "Service impeccable et saveurs authentiques. Kitano Shokudo est devenu mon resto japonais
+                        préféré en ville."
+                    </p>
+                    <span class="review-author">- Sarah Wu</span>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="https://www.google.com/search?q=Kitano+Shokudo+reviews" target="_blank" class="text-red serif"
+                    data-fr="Voir plus d'avis sur Google" data-en="View more on Google">Voir plus d'avis sur Google</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-v2 section bg-soft">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2 class="serif" data-fr="Notre Menu" data-en="Our Menu">Notre Menu</h2>
+                <p data-fr="Des saveurs soigneusement orchestrées pour chaque moment de la journée."
+                    data-en="Carefully orchestrated flavors for every moment of the day.">
+                    Des saveurs soigneusement orchestrées pour chaque moment de la journée.
+                </p>
+                <div class="menu-tabs-v2">
+                    <button class="tab-btn-v2 active" data-tab="lunch" data-fr="Lunch" data-en="Lunch">Lunch</button>
+                    <button class="tab-btn-v2" data-tab="dinner" data-fr="Souper" data-en="Dinner">Souper</button>
+                </div>
+            </div>
+
+            <div class="tab-container-v2">
+                <!-- Lunch Menu -->
+                <div id="lunch" class="tab-pane-v2 active">
+                    <div class="menu-sections-grid">
+                        <div class="menu-cat-v2">
+                            <h3 class="serif cat-title" data-fr="Nouilles Mazemen" data-en="Mazemen Noodles">Nouilles
+                                Mazemen</h3>
+                            <div class="item-list-v2">
+                                <div class="item-v2">
+                                    <div class="item-top">
+                                        <span class="name serif">NIKU</span>
+                                        <span class="price">$18</span>
+                                    </div>
+                                    <p class="desc" data-fr="Nikumiso, oignon vert, oignon rouge, nori, jaune d'oeuf."
+                                        data-en="Nikumiso, green onion, red onion, nori, egg yolk.">Nikumiso, oignon
+                                        vert, oignon rouge, nori, jaune d'oeuf.</p>
+                                </div>
+                                <div class="item-v2">
+                                    <div class="item-top">
+                                        <span class="name serif">SPICY GREEN</span>
+                                        <span class="price">$18</span>
+                                    </div>
+                                    <p class="desc"
+                                        data-fr="Huile pimentée à l'ail, ciboulette, concombre, arachides, coriandre."
+                                        data-en="Garlic chilli oil, chive, cucumber, peanuts, cilantro.">Huile pimentée
+                                        à l'ail, ciboulette, concombre, arachides, coriandre.</p>
+                                    <span class="addon" data-fr="Ajouter Ikura +$9" data-en="Add Ikura +$9">Ajouter
+                                        Ikura +$9</span>
+                                </div>
+                                <div class="item-v2">
+                                    <div class="item-top">
+                                        <span class="name serif">DUCK CONFIT</span>
+                                        <span class="price">$28</span>
+                                    </div>
+                                    <p class="desc"
+                                        data-fr="Oignon vert, oignon rouge, oeuf style onsen, nori, poivre noir."
+                                        data-en="Green onion, red onion, onsen tamago, nori, black pepper.">Oignon vert,
+                                        oignon rouge, oeuf style onsen, nori, poivre noir.</p>
+                                </div>
+                                <div class="item-v2 border-none">
+                                    <div class="item-top">
+                                        <span class="name serif">MUSHROOM</span>
+                                        <span class="price">$24</span>
+                                    </div>
+                                    <p class="desc" data-fr="Champignons sautés, ghee, ciboulette, jaune d'oeuf."
+                                        data-en="Sauteed mushrooms, ghee, chive, egg yolk.">Champignons sautés, ghee,
+                                        ciboulette, jaune d'oeuf.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-cat-v2">
+                            <h3 class="serif cat-title" data-fr="Sushi & Bols" data-en="Sushi & Bowls">Sushi & Bols</h3>
+                            <div class="item-list-v2">
+                                <div class="item-v2">
+                                    <div class="item-top">
+                                        <span class="name serif">CHIRASHI</span>
+                                        <span class="price">$38</span>
+                                    </div>
+                                    <p class="desc"
+                                        data-fr="Assortiment de sashimi sur riz à sushi, oeuf de saumon, gingembre."
+                                        data-en="Assorted sashimi on sushi rice, salmon egg, ginger.">Assortiment de
+                                        sashimi sur riz à sushi, oeuf de saumon, gingembre.</p>
+                                </div>
+                                <div class="item-v2 border-none">
+                                    <div class="item-top">
+                                        <span class="name serif">MAGURO DON</span>
+                                        <span class="price">$38</span>
+                                    </div>
+                                    <p class="desc" data-fr="Thon rouge légèrement mariné, shiso, riz à sushi."
+                                        data-en="Quick marinated Bluefin tuna, shiso, sushi rice.">Thon rouge légèrement
+                                        mariné, shiso, riz à sushi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dinner Menu -->
+                <div id="dinner" class="tab-pane-v2">
+                    <div class="menu-sections-grid">
+                        <div class="menu-cat-v2">
+                            <h3 class="serif cat-title" data-fr="Bistro Classique" data-en="Classic Bistro">Bistro
+                                Classique</h3>
+                            <div class="item-list-v2">
+                                <div class="item-v2">
+                                    <div class="item-top">
+                                        <span class="name serif" data-fr="MAPO-TOFU SANGLIER"
+                                            data-en="WILD BOAR MAPO">MAPO-TOFU SANGLIER</span>
+                                        <span class="price">$26</span>
+                                    </div>
+                                    <p class="desc" data-fr="Sanglier haché, tofu, haricots fermentés, huile pimentée."
+                                        data-en="Ground wild boar, tofu, fermented beans, chilli oil.">Sanglier haché,
+                                        tofu, haricots fermentés, huile pimentée.</p>
+                                </div>
+                                <div class="item-v2">
+                                    <div class="item-top">
+                                        <span class="name serif">UNI CARBONARA</span>
+                                        <span class="price">M/P</span>
+                                    </div>
+                                    <p class="desc" data-fr="Oursin, crème, poivre, oeuf onsen."
+                                        data-en="Sea urchin, cream, pepper, onsen egg.">Oursin, crème, poivre, oeuf
+                                        onsen.</p>
+                                </div>
+                                <div class="item-v2 border-none">
+                                    <div class="item-top">
+                                        <span class="name serif">DUCK MAZEMEN</span>
+                                        <span class="price">$34</span>
+                                    </div>
+                                    <p class="desc"
+                                        data-fr="Oignon vert, oignon rouge, oeuf style onsen, nori, poivre noir."
+                                        data-en="Green onion, red onion, onsen tamago, nori, black pepper.">Oignon vert,
+                                        oignon rouge, oeuf style onsen, nori, poivre noir.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-cat-v2">
+                            <h3 class="serif cat-title" data-fr="Sashimi & Plus" data-en="Sashimi & More">Sashimi & Plus
+                            </h3>
+                            <div class="item-list-v2">
+                                <div class="item-v2">
+                                    <div class="item-top">
+                                        <span class="name serif" data-fr="CHIRASHI DELUXE"
+                                            data-en="DELUXE CHIRASHI">CHIRASHI DELUXE</span>
+                                        <span class="price">$42</span>
+                                    </div>
+                                    <p class="desc" data-fr="Assortiment de sashimi premium sur riz à sushi."
+                                        data-en="Premium assorted sashimi on sushi rice.">Assortiment de sashimi premium
+                                        sur riz à sushi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-v2 section">
+        <div class="container grid-2">
+            <div class="contact-details reveal">
+                <h2 class="serif" data-fr="Nous Trouver" data-en="Find Us">Nous Trouver</h2>
+                <div class="divider-red"></div>
+                <div class="contact-box">
+                    <div class="c-item">
+                        <span class="label" data-fr="Adresse" data-en="Address">Adresse</span>
+                        <p>143 Mont-Royal Est, Montréal, QC H2T 1N9</p>
+                    </div>
+                    <div class="c-item">
+                        <span class="label" data-fr="Contact" data-en="Contact">Contact</span>
+                        <p>(438) 383-4700<br>Ottobistroinvoice@gmail.com</p>
+                    </div>
+                    <div class="social-section mt-4">
+                        <span class="label" data-fr="Suivez-nous" data-en="Follow Us">Suivez-nous</span>
+                        <div class="social-links-grid">
+                            <a href="https://www.instagram.com/kitano_shokudo/" target="_blank" class="social-card">
+                                <span>Instagram</span>
+                            </a>
+                            <a href="https://www.facebook.com/Ottobistro" target="_blank" class="social-card">
+                                <span>Facebook</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map-container reveal">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.0934854898394!2d-73.5855239235!3d45.5218086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91bc2e847c21f%3A0xe7f8a7e0c6c0e86!2s143%20Mt%20Royal%20Ave%20E%2C%20Montreal%2C%20QC%20H2T%201N9!5e0!3m2!1sen!2sca!4v1700000000000!5m2!1sen!2sca"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="hours-section section bg-soft">
+        <div class="container">
+            <div class="hours-card reveal">
+                <h3 class="serif text-center" data-fr="Heures d'ouvertures" data-en="Opening Hours">Heures d'ouvertures
+                </h3>
+                <div class="hours-grid-v2">
+                    <div class="h-row"><span>Lun - Ven / Mon - Fri</span> <span>11:30–13:30 / 17:30–20:30</span></div>
+                    <div class="h-row closed"><span>Sam - Dim / Sat - Sun</span> <span data-fr="Fermé"
+                            data-en="Closed">Fermé</span></div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="https://www.opentable.com/booking/restref/availability?restRef=1378360"
+                        class="btn-primary-v2" target="_blank" data-fr="Réserver une Table"
+                        data-en="Book a Table">Réserver une Table</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-v2">
+        <div class="container footer-grid">
+            <div class="footer-col reveal">
+                <img src="assets/logo.png" alt="Kitano Shokudo Logo" class="f-logo">
+                <p data-fr="Authentique Bistro Japonais à Montréal." data-en="Authentic Japanese Bistro in Montreal.">
+                    Authentique Bistro Japonais à Montréal.</p>
+                <div class="f-socials">
+                    <a href="https://www.instagram.com/kitano_shokudo/" target="_blank" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="https://www.facebook.com/Ottobistro" target="_blank" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-col reveal">
+                <h4 class="serif" data-fr="Navigation" data-en="Navigation">Navigation</h4>
+                <ul class="f-links">
+                    <li><a href="#about" data-fr="Histoire" data-en="Story">Histoire</a></li>
+                    <li><a href="#menu" data-fr="Menu" data-en="Menu">Menu</a></li>
+                    <li><a href="#reviews" data-fr="Avis" data-en="Reviews">Avis</a></li>
+                    <li><a href="#contact" data-fr="Contact" data-en="Contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col reveal">
+                <h4 class="serif" data-fr="Contact" data-en="Contact">Contact</h4>
+                <p>143 Mont-Royal Est<br>Montreal, QC H2T 1N9</p>
+                <p>(438) 383-4700</p>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p data-fr="© 2024 Kitano Shokudo. Tous droits réservés."
+                data-en="© 2024 Kitano Shokudo. All rights reserved.">© 2024 Kitano Shokudo. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
