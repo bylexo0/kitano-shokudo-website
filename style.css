@@ -130,6 +130,10 @@ img {
     border-radius: 2px;
 }
 
+.mobile-toggle {
+    display: none;
+}
+
 /* Language Switch */
 .lang-switch {
     display: flex;
@@ -426,6 +430,31 @@ img {
 
     .nav-links {
         display: none;
+    }
+
+    .mobile-toggle {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 2001;
+    }
+
+    .mobile-toggle span {
+        display: block;
+        width: 25px;
+        height: 2px;
+        background-color: var(--charcoal);
+        margin: 6px 0;
+        transition: 0.3s;
+    }
+
+    .mobile-toggle.open span:first-child {
+        transform: rotate(45deg) translate(5px, 6px);
+    }
+
+    .mobile-toggle.open span:last-child {
+        transform: rotate(-45deg) translate(5px, -6px);
     }
 
     .hero-grid,
